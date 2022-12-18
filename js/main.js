@@ -59,12 +59,12 @@ function recorrerArray(arrayElegido) {
     }
     else if (arrayElegido == modelo) {
         for (let model of arrayElegido) {
-            contenido += model.id + "- " + model.nombre + " -" + model.categoria + " -" + model.serie + " -"+ model.precio + " -" + model.formato + "\n";
+            contenido += model.id + "- " + model.nombre + " -" + model.categoria + " -" + model.serie + " - $"+ model.precio + " -" + model.formato + "\n";
         }
     }
     else if (arrayElegido == modelos_agregados){
         for (let model of modelos_agregados) {
-        contenido += model.id + "- " + model.nombre + " -" + model.categoria + " -" + model.serie + " -"+ model.precio + " -" + model.formato + "\n";
+        contenido += model.id + "- " + model.nombre + " -" + model.categoria + " -" + model.serie + " - $"+ model.precio + " -" + model.formato + "\n";
         }
             
     }

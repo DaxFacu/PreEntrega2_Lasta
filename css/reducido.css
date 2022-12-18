@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap"); /* Animation */
+@keyframes scaleAnim {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  background-color: rgba(13, 134, 190, 0.6156862745);
+}
+
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+.navText li a {
+  family: "Roboto", sans-serif, sans-serif;
+  font-size: 2em;
+}
+
+#productos div section div nav button {
+  background-color: rgba(25, 160, 223, 0.3411764706);
+  color: #000000;
+  border-color: #000000;
+}
+#productos div section div article:hover {
+  animation: scaleAnim 1s ease 0s 1 normal forwards;
+}
+#productos div section div a {
+  text-decoration: none;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.listA {
+  text-align: center;
+  list-style: none;
+}
+.listA li h3 {
+  font-size: 2.4em;
+  font-weight: 600;
+}
+.listA li {
+  text-align: center;
+}
+.listA li a {
+  text-align: center;
+  font-size: 1.7em;
+}
+.listA li {
+  text-align: center;
+}
+.listA li p {
+  font-size: 1.7em;
+}
+.listA li a {
+  text-decoration: none;
+}
+
+#footer section {
+  background-color: rgba(204, 204, 204, 0.9607843137);
+}
+
+@media (min-width: 580px) {
+  #redes {
+    width: 40%;
+    height: auto;
+  }
+}
+@media (max-width: 580px) {
+  #productos div {
+    display: block;
+  }
+  #productos div article {
+    margin: auto;
+    width: 100%;
+  }
+}
+#productos div section div nav button {
+  background-color: rgba(25, 160, 223, 0.3411764706);
+  color: #000000;
+  border-color: #000000;
+}
+#productos div section div article:hover {
+  animation: scaleAnim 1s ease 0s 1 normal forwards;
+}
+#productos div section div a {
+  text-decoration: none;
+  font-size: 1.7em;
+  text-align: center;
+}

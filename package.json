@@ -1,0 +1,26 @@
+{
+  "name": "todo3d",
+  "version": "1.0.0",
+  "description": "Todo3D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+		"sass:watch": "sass --watch scss/main.scss  css/main.css",
+    "build":"purgecss -css css/main.css --content *.html -o css/reducido.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaxFacu/PreEntrega2-Lasta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaxFacu/PreEntrega2-Lasta/issues"
+  },
+  "homepage": "https://github.com/DaxFacu/PreEntrega2-Lasta#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
